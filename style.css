@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightblue;
+    font-family: 'Outfit', sans-serif;
+
+
+}
+
+.card{
+    margin: auto ;
+    background-color: #fff;
+    display: grid;
+    grid-template: 300px auto auto / 300px;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+
+.card-img{
+    grid-row: 1;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card-title{
+    grid-row: 2;
+    font-size: 1.7rem;
+    text-align: center;
+    color:black;
+    opacity: 80%;
+}
+
+.card-body{
+    font-size: 1.125rem;
+    text-align: center;
+    margin-top: .5em;
+    opacity: 70%;
+}
+
